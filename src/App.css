@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+ /* background-image: url("https://image.lexica.art/full_webp/e8a41335-f2f0-4622-b6c8-6f0b0f9c5630"); */
+ /* background-size: cover; or use 'contain' or specify dimensions */
+  /* Additional styles */
+  width: 100vw; /* Adjust the width of the container as needed */
+  height: 100vh;
+  /* background-repeat: no-repeat;
+
+  background-position: center; */
+  background-color: rgb(209, 208, 205);
+}
+
+.formdiv{
+    background-image: url("https://image.lexica.art/full_webp/734864f1-eb59-4862-8a7a-ff68a423551d"); 
+  background-size: cover;  
+}
